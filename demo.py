@@ -57,7 +57,7 @@ def build_model():
 
 def test():
     corrector = WordCorrect()
-    word = '我门'
+    word = '窝门'
     word_pinyin = ','.join(lazy_pinyin(word))
     candiwords = corrector.edit1(word)
     print(candiwords)
